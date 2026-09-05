@@ -1,17 +1,21 @@
-#  Borrower Copilot
+# Borrower Copilot
 
 This is my take-home implementation for Lokta's Borrower Copilot assignment.
 
 I built it as a small React + Vite + TypeScript app that runs fully in the browser. There is no backend, login, database, bureau pull, CIBIL integration, Firebase setup, or external API call in the app. The borrower answers the questions, the browser runs the rules, and the result is shown immediately.
 
-## Running it
+## Running it locally
+
+Prerequisite: Node.js 22.12.0 or newer with npm.
+
+From the project root:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Vite will print a local URL. On my machine it is usually:
+That is the full setup. It should run locally in under five minutes on a normal connection. Vite will print a local URL; on my machine it is usually:
 
 ```text
 http://127.0.0.1:5173/
@@ -51,6 +55,7 @@ I kept every rule in normal TypeScript files so it is easy to inspect or change 
 ├── RULES.md
 ├── RUN_THROUGHS.md
 ├── WALKTHROUGH.md
+├── .gitignore
 ├── index.html
 ├── package-lock.json
 ├── package.json
