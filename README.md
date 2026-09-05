@@ -1,4 +1,4 @@
-# Lokta Borrower Copilot
+#  Borrower Copilot
 
 This is my take-home implementation for Lokta's Borrower Copilot assignment.
 
